@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     'use strice';
     console.log("main.js loaded");
 
@@ -30,9 +30,6 @@ $(document).ready(function(){
     text.fillColor = "white";
     text.fontsize = 20;
     text.content = "hello world";
-
-
-    
 
     paper.view.draw();
 
